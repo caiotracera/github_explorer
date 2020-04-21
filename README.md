@@ -1,44 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src="src/assets/logo.svg">
+</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/caiotracera/github_explorer">
 
-### `yarn start`
+  <img src="https://img.shields.io/github/languages/count/caiotracera/github_explorer">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiotracera/github_explorer">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <a href="https://www.linkedin.com/in/caiotracera/">
+    <img alt="Made by caiotracera" src="https://img.shields.io/badge/made%20by-caiotracera-%230172B3">
+  </a>
 
-### `yarn test`
+  <a href="https://github.com/caiotracera/github_explorer/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caiotracera/github_explorer">
+  </a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <a href="https://github.com/caiotracera/github_explorer/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/caiotracera/github_explorer">
+  </a>
 
-### `yarn build`
+  <img src="https://api.codacy.com/project/badge/Grade/3dce22b3e7e142b2966d756ec9471c89"/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="center">
+  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#ℹ-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="✏-to-do">To Do</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 🚀 About
+This application was developed during the classes of <a href="https://github.com/rocketseat">Rocketseat</a>'s GoStack Bootcamp 11.
 
-### `yarn eject`
+# 💻 Technologies
+* Typescript
+* React.js
+* Axios
+* styled-components
+* Polished
+* react-router-dom
+* ESLint, with Prettier and EditorConfig
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# ℹ How To Use
+In order to run this project locally in your machine, you'll need to have NodeJS 12+, NPM or Yarn, and Git installed. If you met all the requisites, just do the following in your terminal:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```shell
+# Clone this repo
+$ git clone https://github.com/caiotracera/github_explorer.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Open the repo folder
+$ cd github_explorer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Install dependencies
+$ yarn
 
-## Learn More
+# Run the project
+$ yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# ✏ To Do
+- [ ] Add pagination to repos and issues
+- [ ] Make layout responsive
+- [ ] Add dark mode
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 📝 License
+This project is under the MIT license. See [LICENSE](LICENSE) for more information.
+
+---
+
+Made with 💖 by Caio Tracera 👋 <a href="https://www.linkedin.com/in/caiotracera/">Get in touch!</a>
